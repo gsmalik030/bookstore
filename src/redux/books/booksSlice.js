@@ -33,7 +33,7 @@ const removeBook = (index) => ({
 const bookReducer = (state = intialState, action) => {
   switch (action.type) {
     case ADD:
-      return [...state.books, action.payload];
+      return [...state, action.payload];
     case REMOVE:
     return [...state.filter((book) => book.item_id !== action.payload)];
     default:
