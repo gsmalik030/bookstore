@@ -1,18 +1,12 @@
-const BOOKS = 'BOOKS';
+const CHECK = 'CHECK';
 
-const initialState = [];
-
-export const bookCheck = () => ({
-  type: BOOKS,
-});
-
-const categoryReducer = (state = initialState, action) => {
+export default (state = [], action) => {
   switch (action.type) {
-    case BOOKS:
-      return 'UNDER CONSTRUCTION';
+    case CHECK:
+      return 'Under construction';
     default:
       return state;
   }
 };
 
-export default categoryReducer;
+export const checkStatus = () => ({ type: CHECK });
