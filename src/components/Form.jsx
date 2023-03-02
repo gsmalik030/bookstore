@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addBook } from '../redux/books/booksSlice';
+import './styles/form.css';
 
 const Form = () => {
   const dispatch = useDispatch();
@@ -24,8 +25,11 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <>
+    <h2 className='form-title'>Add New Book</h2>
+    <form className='form' onSubmit={handleSubmit}>
       <input
+      className='form-input'
         onChange={bookTitle}
         value={title}
         type='text'
@@ -33,14 +37,16 @@ const Form = () => {
         name='title'
       />
       <input
+      className='form-input'
         onChange={bookAuthor}
         value={author}
         type='text'
         placeholder='Author'
         name='author'
       />
-      <button type='submit'>Add Book</button>
+      <button className='add-book' type='submit'>Add Book</button>
     </form>
+    </>
   );
 };
 
