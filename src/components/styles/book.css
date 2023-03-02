@@ -13,6 +13,7 @@
   height: 25px;
   background-color: #f7f7f7;
 }
+
 .btnBox {
   display: flex;
   gap: 10px;
@@ -20,7 +21,6 @@
 }
 
 .btn {
-  font-family: RobotoSlab;
   font-size: 0.875rem;
   font-weight: 300;
   color: #4386bf;
@@ -35,14 +35,12 @@
 }
 
 .title {
-  font-family: RobotoSlab;
   font-size: 1.375rem;
   font-weight: bold;
   margin: 0.188rem 20.188rem 0 0;
 }
 
 .author {
-  font-family: RobotoSlab;
   font-size: 0.875rem;
   font-weight: 300;
   color: #4386bf;
@@ -62,7 +60,6 @@
   width: 4.25rem;
   height: 2.438rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
-  font-family: Montserrat;
   font-size: 2rem;
   color: #121212;
 }
@@ -71,7 +68,6 @@
   height: 1.125rem;
   margin: 0.438rem 4.938rem 0.75rem 0.75rem;
   opacity: 0.5;
-  font-family: Montserrat;
   font-size: 0.875rem;
   color: var(--black-two);
 }
@@ -95,7 +91,6 @@
 .currentChapter {
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
-  font-family: RobotoSlab;
   font-size: 0.813rem;
   font-weight: 300;
   color: #121212;
@@ -103,7 +98,6 @@
 
 .lesson {
   margin: 0.438rem 6.813rem 0.25rem 3.688rem;
-  font-family: RobotoSlab;
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: -0.4px;
@@ -111,7 +105,6 @@
 }
 
 .updateProgressBtn {
-  font-family: RobotoSlab;
   font-size: 0.813rem;
   font-weight: 300;
   letter-spacing: 0.5px;
