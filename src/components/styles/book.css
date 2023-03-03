@@ -1,0 +1,133 @@
+.bookBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookInfoBox {
+  margin-left: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.line {
+  width: 2.5px;
+  height: 25px;
+  background-color: #f7f7f7;
+}
+
+.btnBox {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.btn {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+}
+
+.category {
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #121212;
+  margin: 0 2.438rem 0 0;
+}
+
+.title {
+  font-size: 1.375rem;
+  font-weight: bold;
+  margin: 0.188rem 20.188rem 0 0;
+}
+
+.author {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+  margin: 0.25rem 0 0;
+}
+
+.ui-widget {
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 5px solid #379cf6;
+  border-radius: 4.5rem;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  border-left-color: #fff;
+}
+
+.progress {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-size: 2rem;
+  color: #121212;
+}
+
+.completed {
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-size: 0.875rem;
+  color: var(--black-two);
+}
+
+.statBox {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.line-2 {
+  width: 0.125rem;
+  height: 4.375rem;
+  border: solid 1px #e8e8e8;
+}
+
+.chapterBox {
+  margin-right: 2rem;
+  padding: 1.5rem 0;
+}
+
+.currentChapter {
+  margin: 0.063rem 3.625rem 0 3.688rem;
+  opacity: 0.5;
+  font-size: 0.813rem;
+  font-weight: 300;
+  color: #121212;
+}
+
+.lesson {
+  margin: 0.438rem 6.813rem 0.25rem 3.688rem;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.updateProgressBtn {
+  font-size: 0.813rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  outline: none;
+  border: none;
+}
+
+.statContainer {
+  display: flex;
+  align-items: center;
+}
+
+.bookSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 5%;
+  width: 90%;
+  background-color: white;
+  border: solid 1px #e8e8e8;
+}

@@ -1,0 +1,63 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.navContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+  align-items: center;
+  background-color: white;
+  border: solid 1px #e8e8e8;
+  margin-bottom: 3rem;
+}
+
+.ovel {
+  margin-right: 2rem;
+  border: solid 1px #e8e8e8;
+  border-radius: 50%;
+}
+
+.accIcon {
+  cursor: pointer;
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.logo {
+  width: 15rem;
+  height: 2.313rem;
+  margin-right: 1.5rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #0290ff;
+  fill: white;
+}
+
+.navLink {
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.oppacity {
+  opacity: 0.5;
+}
