@@ -4,7 +4,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #121212;
 }
 
 .navLinks {
@@ -37,8 +37,6 @@ a {
 
 .accIcon {
   cursor: pointer;
-  fill: #0290ff;
-  color: white;
   font-size: 2rem;
   width: 2rem;
   height: 2rem;
@@ -52,6 +50,7 @@ a {
   font-size: 1.875rem;
   font-weight: bold;
   color: #0290ff;
+  fill: white;
 }
 
 .navLink {

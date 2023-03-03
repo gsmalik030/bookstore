@@ -29,4 +29,7 @@
   background-color: #0290ff;
   outline: none;
   border: none;
+  color: white;
+  font-size: 0.813rem;
+  letter-spacing: 0.5px;
 }
