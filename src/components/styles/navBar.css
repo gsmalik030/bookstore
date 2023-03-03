@@ -4,7 +4,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #121212;
 }
 
 .navLinks {
@@ -55,8 +54,10 @@ a {
 
 .navLink {
   font-size: 0.813rem;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 1.9px;
   color: #121212;
+}
+
+.oppacity {
+  opacity: 0.5;
 }
